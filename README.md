@@ -30,7 +30,7 @@ Diseño e implementación de una base de datos relacional para gestionar el repo
 ### Clonar Repositorio
 ```bash
 git clone https://github.com/EnriqueGranados/actividad_sistema_reporte_fallos.git
-cd actividad_sistema_reporte_fallos.git
+cd actividad_sistema_reporte_fallos
 ```
 
 ### Levantar Contenedores
