@@ -25,6 +25,22 @@ Diseño e implementación de una base de datos relacional para gestionar el repo
 
 ---
 
+### Clonar Repositorio
+```bash
+git clone https://github.com/EnriqueGranados/actividad_sistema_reporte_fallos.git
+cd actividad_sistema_reporte_fallos.git
+```
+
+### Levantar Contenedores
+```bash
+docker compose up -d
+```
+
+### Verificar Contenedores
+```bash
+docker compose ps
+```
+
 ### Ejecución del Proyecto
 Para aplicar los scripts en la base de datos corriendo en Docker, se debe ejecutar el siguiente comando en la terminal, en la raíz del proyecto:
 
