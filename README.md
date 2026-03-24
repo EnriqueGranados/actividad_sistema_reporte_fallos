@@ -25,6 +25,8 @@ Diseño e implementación de una base de datos relacional para gestionar el repo
 
 ---
 
+## Instalación y Ejecución
+
 ### Clonar Repositorio
 ```bash
 git clone https://github.com/EnriqueGranados/actividad_sistema_reporte_fallos.git
