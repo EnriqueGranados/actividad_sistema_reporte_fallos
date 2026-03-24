@@ -1,6 +1,6 @@
 # Actividad - Sistema de Reporte de Fallos UJI
 
-Este proyecto contiene el diseño y la implementación de una base de datos relacional para gestionar el reporte de fallos de pizarras electrónicas, automatizando cambios de estado mediante triggers.
+Diseño e implementación de una base de datos relacional para gestionar el reporte de fallos de pizarras electrónicas, automatizando cambios de estado mediante triggers.
 
 ---
 
@@ -26,7 +26,7 @@ Este proyecto contiene el diseño y la implementación de una base de datos rela
 ---
 
 ## Cómo ejecutar el proyecto
-Para aplicar los scripts en la base de datos corriendo en Docker, ejecuta el siguiente comando en la terminal, asegurándote de estar en la raíz del proyecto:
+Para aplicar los scripts en la base de datos corriendo en Docker, se debe ejecutar el siguiente comando en la terminal, en la raíz del proyecto:
 
 ```bash
 docker exec -it postgres17 psql -U postgres -d db_reporte_fallos -f /docker-entrypoint-initdb.d/main.sql
