@@ -25,7 +25,7 @@ Diseño e implementación de una base de datos relacional para gestionar el repo
 
 ---
 
-## Cómo ejecutar el proyecto
+### Ejecución del Proyecto
 Para aplicar los scripts en la base de datos corriendo en Docker, se debe ejecutar el siguiente comando en la terminal, en la raíz del proyecto:
 
 ```bash
