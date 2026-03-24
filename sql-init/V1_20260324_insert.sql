@@ -4,11 +4,11 @@
 
 -- Inserción de 5 pizarras.
 INSERT INTO pizarras (ubicacion, estado) VALUES
-('Aula 101 - Edificio TIC', 'Operativa'),
-('Aula 102 - Edificio TIC', 'Operativa'),
+('Aula 14 - Edificio TIC', 'Operativa'),
+('Aula 15 - Edificio TIC', 'Operativa'),
 ('Laboratorio de Redes 1', 'Operativa'),
 ('Auditorio Principal', 'Operativa'),
-('Aula 305 - Facultad de Ciencias', 'Fuera de Servicio');
+('Aula 10 - Facultad de Ciencias', 'Fuera de Servicio');
 
 -- Inserción de 5 técnicos.
 INSERT INTO tecnicos (nombre, especialidad) VALUES
