@@ -4,7 +4,7 @@ Este proyecto contiene el diseño y la implementación de una base de datos rela
 
 ---
 
-## Integrantes
+### Integrantes
 * Jaime Enrique Serrano Granados - SG20010
 * Karla Patricia Orellana Hidalgo - OH20003
 
@@ -28,5 +28,6 @@ Este proyecto contiene el diseño y la implementación de una base de datos rela
 ## Cómo ejecutar el proyecto
 Para aplicar los scripts en la base de datos corriendo en Docker, ejecuta el siguiente comando en la terminal, asegurándote de estar en la raíz del proyecto:
 
-bash
-docker exec -it postgres17 psql -U postgres -d db_reporte_fallos -f docker-entrypoint-initdb.d/main.sql
+```bash
+docker exec -it postgres17 psql -U postgres -d db_reporte_fallos -f /docker-entrypoint-initdb.d/main.sql
+```
