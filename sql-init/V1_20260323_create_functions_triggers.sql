@@ -3,7 +3,7 @@
 -- =======================================================================
 
 --Función para actualizar el estado de la pizarra.
-CREATE OR REPLACE FUNCTION actualizar_estado_pizarra()
+CREATE OR REPLACE FUNCTION fn_actualizar_estado_pizarra()
 RETURNS TRIGGER AS $$
 BEGIN
     UPDATE pizarras
@@ -17,7 +17,7 @@ $$ LANGUAGE plpgsql;
 CREATE TRIGGER trg_cambio_estado_pizarra
 AFTER INSERT ON reportes_fallos 
 FOR EACH ROW 
-EXECUTE FUNCTION actualizar_estado_pizarra();
+EXECUTE FUNCTION fn_actualizar_estado_pizarra();
 
 /*
 Justificación Técnica
